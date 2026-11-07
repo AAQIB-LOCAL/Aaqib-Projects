@@ -15,7 +15,7 @@ The projects are presented as working codebases rather than isolated technology 
   </a>
 </p>
 
-## Portfolio at a glance
+## Flagship projects at a glance
 
 | Project | Area | Primary technologies | Engineering focus |
 |---|---|---|---|
@@ -237,6 +237,246 @@ Anti-Doomscroll Journal combines native screen-time monitoring with a structured
 
 ---
 
+## Additional projects
+
+The six flagship projects above are only part of the portfolio. The following catalogue adds the other original applications, utilities, libraries, experiments, and technical reference projects found during the account audit.
+
+### AI, data, civic technology and analytics
+
+#### [AI Benchmark](https://github.com/Aaqibhafeezkhan/AI-Benchmark)
+A Next.js workspace for side-by-side LLM comparison. It supports mock runs for offline UI experimentation, provider-backed responses where credentials are supplied, streamed output, manual scoring, runnable prompt cases, and a LiveBench leaderboard view. The repository distinguishes exploratory comparisons from versioned benchmark records and does not claim that live-provider results are scientifically reproducible.
+
+**Stack:** Next.js, TypeScript, React.
+
+[Source](https://github.com/Aaqibhafeezkhan/AI-Benchmark) · [Live app](https://aaqib-hafeez-khan-in.github.io/AI-Benchmark/)
+
+#### [OpenNewsGrid](https://github.com/Aaqibhafeezkhan/OpenNewsGrid)
+A global news aggregation application combining RSS feeds, NewsAPI and GNews integrations. It includes regional browsing, category pages, full-text search, filters, duplicate-story handling, and responsive article views.
+
+**Stack:** Next.js 15, TypeScript, Tailwind CSS, RSS and news APIs.
+
+[Source](https://github.com/Aaqibhafeezkhan/OpenNewsGrid) · [Live app](https://open-news-grid.vercel.app/)
+
+#### [India Civic Pulse](https://github.com/Aaqibhafeezkhan/India-Civic-Pulse)
+A map-first civic information reader that connects public-interest updates to source records, publication dates and carefully caveated geography. Its ingestion pipeline works with official RBI and SEBI RSS feeds, while the browser interface provides a searchable story feed, topic filters and a Leaflet map. Publisher records are not presented as independently fact-checked reporting.
+
+**Stack:** Python, JavaScript, Leaflet, RSS, JSON.
+
+[Source](https://github.com/Aaqibhafeezkhan/India-Civic-Pulse)
+
+#### [Pollinations AI Chat Platform](https://github.com/Aaqibhafeezkhan/Streamlit-Pollination-Chatbot)
+A Streamlit chatbot with model selection, streaming responses, document-based retrieval, conversation management, prompt personas, exports and analytics. Its local data layer uses SQLite and ChromaDB for conversation and retrieval state.
+
+**Stack:** Python, Streamlit, SQLite, ChromaDB.
+
+[Source](https://github.com/Aaqibhafeezkhan/Streamlit-Pollination-Chatbot)
+
+#### [IMDb Stats](https://github.com/Aaqibhafeezkhan/imdb-stats)
+A Scala/SBT command-line data tool that downloads IMDb's public bulk datasets, joins title and rating records, applies a configurable vote threshold, and generates ranked current-year movie reports. Its documentation distinguishes daily-updated bulk data from exact calendar-date or real-time API data.
+
+**Stack:** Scala, SBT, IMDb public datasets.
+
+[Source](https://github.com/Aaqibhafeezkhan/imdb-stats)
+
+### Developer tools, libraries and productivity utilities
+
+#### [i18n Missing Translations Detector](https://github.com/Aaqibhafeezkhan/i18n-Translations-missing-script)
+A zero-configuration CLI that scans language JSON files for translation values that remain identical to the base language. It supports configurable language lists, whitelists, structured reports and a non-zero exit code suitable for CI checks.
+
+**Stack:** TypeScript, Node.js.
+
+[Source](https://github.com/Aaqibhafeezkhan/i18n-Translations-missing-script) · [Live demo](https://aaqibhafeezkhan.github.io/i18n-Translations-missing-script/)
+
+#### [NoCodeComments](https://github.com/Aaqibhafeezkhan/NoCodeComments)
+A browser-first source-code comment remover. Its lexical scanner protects comment-like text inside supported strings, template literals and regular expressions, preserves line breaks in removed multiline comments, and supports local-file processing without uploading source code.
+
+**Stack:** JavaScript, HTML, CSS, Node.js test runner.
+
+[Source](https://github.com/Aaqibhafeezkhan/NoCodeComments) · [Live app](https://aaqibhafeezkhan.github.io/NoCodeComments/)
+
+#### [Evergreen Countdown](https://github.com/Aaqibhafeezkhan/Evergreen-Countdown)
+A reusable countdown system for profile READMEs and standalone pages. A shared countdown engine handles target parsing and IANA timezones, while a serverless endpoint generates an embeddable SVG and the static frontend provides a themed countdown page.
+
+**Stack:** JavaScript, SVG, Vercel serverless functions.
+
+[Source](https://github.com/Aaqibhafeezkhan/Evergreen-Countdown) · [Countdown API](https://evergreen-countdown.vercel.app/api/countdown)
+
+#### [Polyglot Utilities Toolkit](https://github.com/Aaqibhafeezkhan/polyglot-utilities-toolkit)
+A capability-first collection of small reusable utilities with language-specific implementations. It groups common collection, string, number, date and validation helpers, and includes a cross-language test matrix rather than assuming every utility exists in every language.
+
+**Stack:** TypeScript, JavaScript, Python, C++, Java, Go, Rust, C#, Kotlin.
+
+[Source](https://github.com/Aaqibhafeezkhan/polyglot-utilities-toolkit)
+
+#### [Form Components Builder](https://github.com/Aaqibhafeezkhan/Form-Components-Builder)
+A browser-based drag-and-drop form designer. It provides a component palette, canvas reordering, field properties, validation rules, conditional visibility, multi-step forms, themes, preview mode, templates, and exports to JSON Schema, standalone HTML and React JSX.
+
+**Stack:** HTML5, CSS3, JavaScript.
+
+[Source](https://github.com/Aaqibhafeezkhan/Form-Components-Builder) · [Live app](https://aaqibhafeezkhan.github.io/Form-Components-Builder/)
+
+#### [Clipper](https://github.com/Aaqibhafeezkhan/Clipper)
+A focused, client-side image utility for adding a white border or removing a border by cropping. Users can select or drop an image, adjust the percentage, preview the result and download a PNG. Image processing uses browser canvas APIs without a server-side processing service.
+
+**Stack:** HTML, CSS, JavaScript, File API, Canvas.
+
+[Source](https://github.com/Aaqibhafeezkhan/Clipper)
+
+#### [Image Picker](https://github.com/Aaqibhafeezkhan/Image-picker)
+An Android image-picker library for selecting an image from the camera or gallery, with image cropping, compression and EXIF-based rotation handling. The repository documents JitPack integration and callback-based result handling.
+
+**Stack:** Java, Android SDK, Gradle.
+
+[Source](https://github.com/Aaqibhafeezkhan/Image-picker)
+
+#### [Privacy Permitter](https://github.com/Aaqibhafeezkhan/Privacy-Permitter)
+A Chrome extension that lists installed extensions and scores their declared permissions and host access using a deterministic heuristic. It groups results into risk bands and supports search and filtering. The score is an awareness aid, not a definitive security verdict or a source-code/runtime audit.
+
+**Stack:** JavaScript, Chrome Extensions APIs.
+
+[Source](https://github.com/Aaqibhafeezkhan/Privacy-Permitter)
+
+#### [Script Scheduler](https://github.com/Aaqibhafeezkhan/Script-Scheduler)
+A script scheduling application with a browser UI and backend execution service. It supports shell and batch-script uploads, recurring schedules, execution history, status filtering, cancellation and persistent schedule data.
+
+**Stack:** Node.js, React, SQLite, JavaScript.
+
+[Source](https://github.com/Aaqibhafeezkhan/Script-Scheduler)
+
+### Applications and interactive experiences
+
+#### [GameVault](https://github.com/Aaqibhafeezkhan/GameVault)
+A browser arcade that brings together more than 50 playable arcade, puzzle, card, word, reflex and strategy games. Game components are loaded within a shared React interface, with browser storage used for supported high scores and saved state.
+
+**Stack:** React, JavaScript, Vite, Styled Components.
+
+[Source](https://github.com/Aaqibhafeezkhan/GameVault) · [Live app](https://arcadegame-vault.vercel.app/)
+
+#### [Tactical XI - World Cup](https://github.com/Aaqibhafeezkhan/Tactical-XI-World-Cup)
+A football tactics sandbox and historical men's World Cup explorer. It combines lineup construction, formations, player roles and tactical controls with a historical tournament archive. The application keeps recorded historical facts, reconstructed tactical metadata and hypothetical simulation output distinct; its app-generated ratings are not official FIFA ratings.
+
+**Stack:** TypeScript, JavaScript, browser-based data visualization.
+
+[Source](https://github.com/Aaqibhafeezkhan/Tactical-XI-World-Cup) · [Live app](https://aaqibhafeezkhan.github.io/Tactical-XI-World-Cup/)
+
+#### [CSS Animation Studio](https://github.com/Aaqibhafeezkhan/CSS-Animation-Studio)
+A progressive web app for browsing a curated animation library and building custom CSS keyframes. It includes search and filters, animation previews, a visual builder, side-by-side comparisons, favorites, playlists, CSS import/export and offline-capable installation.
+
+**Stack:** React, JavaScript, CSS, Vite, PWA.
+
+[Source](https://github.com/Aaqibhafeezkhan/CSS-Animation-Studio)
+
+#### [MicrobloggingApp](https://github.com/Aaqibhafeezkhan/MicrobloggingApp)
+A full-stack microblogging platform with short posts, image uploads, timeline filtering, post management and real-time updates. The solution separates API, core services, data access, frontend and test projects.
+
+**Stack:** C#, ASP.NET Core 8, Razor Pages, SQL Server, Entity Framework Core, Azure Blob Storage, SignalR, Hangfire.
+
+[Source](https://github.com/Aaqibhafeezkhan/MicrobloggingApp)
+
+#### [CoreQA](https://github.com/Aaqibhafeezkhan/CoreQA)
+A dependency-light Q&A forum with registration, authentication, questions, replies, tags, search, pagination, Markdown rendering, voting, moderation and administrator workflows. It supports SQLite for local development and MySQL/MariaDB for deployment.
+
+**Stack:** PHP 8.2+, PDO, SQLite, MySQL/MariaDB.
+
+[Source](https://github.com/Aaqibhafeezkhan/CoreQA)
+
+#### [SecureAuth](https://github.com/Aaqibhafeezkhan/SecureAuth)
+An Android TOTP authenticator that generates six-digit RFC 6238-compatible codes locally. Secrets are encrypted at rest with AES-GCM using a key held by Android Keystore; the project includes local unit tests and explicit account deletion behavior.
+
+**Stack:** Java, Android, Gradle, Android Keystore.
+
+[Source](https://github.com/Aaqibhafeezkhan/SecureAuth)
+
+#### [Invisibility Cloak](https://github.com/Aaqibhafeezkhan/invisibility-cloak)
+A browser-based computer-vision demo that captures a clean background and replaces pixels matching a selected cloak color in a live camera feed. It includes background calibration, HSV range controls, mask smoothing and PNG snapshot export.
+
+**Stack:** Python, Streamlit, OpenCV, NumPy, WebRTC.
+
+[Source](https://github.com/Aaqibhafeezkhan/invisibility-cloak)
+
+#### [MyTechAccounts](https://github.com/Aaqibhafeezkhan/MyTechAccounts)
+A personal developer hub for finding coding, learning, data and freelance profiles. It provides search, filtering, quick external links, theme switching and persistent pinned profiles.
+
+**Stack:** HTML, CSS, JavaScript, browser local storage.
+
+[Source](https://github.com/Aaqibhafeezkhan/MyTechAccounts) · [Live app](https://aaqibhafeezkhan.github.io/MyTechAccounts/)
+
+#### [Simple Resume Builder](https://github.com/Aaqibhafeezkhan/SimpleResumeBuilder)
+A browser-only resume editor with drag-and-drop section ordering, inline editing, multiple templates, theme and typography controls, local auto-save, session restore and PDF output through the browser print dialog.
+
+**Stack:** HTML, CSS, JavaScript, localStorage.
+
+[Source](https://github.com/Aaqibhafeezkhan/SimpleResumeBuilder) · [Live app](https://aaqib-hafeez-khan-in.github.io/SimpleResumeBuilder/)
+
+#### [Curriculum Vitae Forge](https://github.com/Aaqibhafeezkhan/Curriculum-Vitae-Forge)
+A framework-free resume builder with drag-and-drop sections, inline editing, multiple templates, undo/redo, JSON import/export, style controls, auto-save and PDF export.
+
+**Stack:** HTML5, CSS, JavaScript, html2pdf.js, localStorage.
+
+[Source](https://github.com/Aaqibhafeezkhan/Curriculum-Vitae-Forge) · [Live app](https://curriculum-vitae-forge.vercel.app/)
+
+#### [Pokémon Literal Doodle](https://github.com/Aaqibhafeezkhan/Pokemon-literal-doodle)
+A Pokédex-style gallery featuring the 151 Generation I Pokémon plus MissingNo. Individual artwork pages use generated HTML and CSS box-shadow pixel data rather than a framework, canvas or image assets.
+
+**Stack:** HTML, CSS, JavaScript.
+
+[Source](https://github.com/Aaqibhafeezkhan/Pokemon-literal-doodle) · [Live gallery](https://aaqib-hafeez-khan-in.github.io/Pokemon-literal-doodle/)
+
+### Learning collections and technical references
+
+#### [FreeCodeCamp Projects](https://github.com/Aaqibhafeezkhan/FreeCodeCampProjects)
+A portfolio collection of 12 backend, API, security and full-stack curriculum projects, including an exercise tracker, file metadata service, issue tracker, message board, personal library, stock price checker and timestamp microservice. The repository also contains a static showcase.
+
+**Stack:** JavaScript, Node.js, Express, APIs and related web technologies.
+
+[Source](https://github.com/Aaqibhafeezkhan/FreeCodeCampProjects) · [Project showcase](https://aaqib-hafeez-khan-in.github.io/FreeCodeCampProjects/)
+
+#### [Bunch of Clones](https://github.com/Aaqibhafeezkhan/Bunch-of-clones)
+A collection of interface and application-clone exercises built with a modern React/Next.js stack. The README identifies Netflix and YouTube as the implemented examples and lists the other concepts as planned work, so the catalogue does not present all listed clones as completed.
+
+**Stack:** Next.js, TypeScript, Tailwind CSS, Framer Motion.
+
+[Source](https://github.com/Aaqibhafeezkhan/Bunch-of-clones) · [Live site](https://bunch-of-clones.vercel.app/)
+
+#### [React Redux Starter](https://github.com/Aaqibhafeezkhan/react-redux-starter)
+A single-page application starter combining React, Redux and TypeScript, with Sass styling, Webpack bundling and Jest/Enzyme testing.
+
+**Stack:** React, Redux, TypeScript, Sass, Webpack, Jest, Enzyme.
+
+[Source](https://github.com/Aaqibhafeezkhan/react-redux-starter)
+
+#### [React.js Interview Epic](https://github.com/Aaqibhafeezkhan/ReactJs-Interview-Epic)
+A continuously maintained React interview reference covering JavaScript and browser fundamentals, React rendering and hooks, modern React APIs, server components, SSR, TypeScript, performance, accessibility, testing, security and frontend system design.
+
+**Stack:** React, JavaScript, TypeScript, technical documentation.
+
+[Source](https://github.com/Aaqibhafeezkhan/ReactJs-Interview-Epic)
+
+#### [Spring Boot Interview Epic](https://github.com/Aaqibhafeezkhan/Spring-Boot-Interview-Epic)
+A version-aware Java and Spring Boot interview knowledge base covering core Java, dependency injection, MVC, data access, transactions, security, testing, observability, messaging, deployment, distributed systems and system design.
+
+**Stack:** Java, Spring Framework, Spring Boot, technical documentation.
+
+[Source](https://github.com/Aaqibhafeezkhan/Spring-Boot-Interview-Epic)
+
+### Enterprise workflow prototype
+
+#### [Beneficiary Update](https://github.com/Aaqibhafeezkhan/NewPegaRepositories/tree/main/Beneficiary-Update)
+A React interface for a case-driven beneficiary information workflow. It reads case and UI metadata from configured Pega APIs, renders metadata-driven fields, handles attachments and submits updates. Running it requires access to a configured Pega environment and valid local credentials; no public demo is listed.
+
+**Stack:** React 19, Vite, JavaScript, Vitest, Pega APIs, Docker, Nginx.
+
+[Source directory](https://github.com/Aaqibhafeezkhan/NewPegaRepositories/tree/main/Beneficiary-Update)
+
+### Legacy project artifact
+
+#### [PLMA](https://github.com/Aaqibhafeezkhan/PLMA)
+An archived desktop application package. The repository contains a ClickOnce deployment package, installer and database query files referring to doctor, patient, billing and report records. The application source code is not included in the repository, so this entry is recorded as a legacy artifact rather than a currently maintainable source project.
+
+[Repository](https://github.com/Aaqibhafeezkhan/PLMA)
+
+---
+
 ## Engineering themes
 
 Across these projects, the recurring engineering concerns are:
@@ -252,24 +492,65 @@ Across these projects, the recurring engineering concerns are:
 
 | Area | Technologies represented |
 |---|---|
-| Languages | Java, JavaScript, TypeScript, HTML, CSS |
-| Backend | Spring Boot, REST APIs, OpenAPI |
-| Frontend | React, Angular, Svelte, Vue, Vite |
-| Architecture | Microfrontends, single-spa, SystemJS, import maps |
-| Mobile | React Native, React Navigation, native Android and iOS APIs |
-| Data and storage | Caffeine, SQLite, MMKV, browser local storage, JSON |
-| Delivery | Docker, GitHub Pages, service workers, Webpack |
+| Languages | Java, JavaScript, TypeScript, Python, C#, PHP, Scala, HTML, CSS |
+| Backend and APIs | Spring Boot, ASP.NET Core, Node.js, PHP/PDO, REST APIs, OpenAPI |
+| Frontend | React, Angular, Svelte, Vue, Next.js, Vite, Razor Pages |
+| Mobile | React Native, Android, Android Keystore, native iOS and Android APIs |
+| Data and storage | SQLite, SQL Server, MySQL/MariaDB, H2, ChromaDB, Caffeine, MMKV, browser local storage |
+| AI and data | LLM evaluation, retrieval-augmented generation, OpenCV, data ingestion, civic-data visualization |
+| Architecture | Microfrontends, single-spa, SystemJS, import maps, local-first applications, PWA |
+| Delivery and tooling | Docker, Nginx, GitHub Pages, Vercel, service workers, Webpack, Gradle, SBT |
+
 
 ## Repository index
 
-| Repository | Description |
-|---|---|
-| [Books-API](https://github.com/Aaqibhafeezkhan/Books-API) | Spring Boot book discovery API |
-| [CMS-Microfrontend](https://github.com/Aaqibhafeezkhan/CMS-Microfrontend) | Multi-framework CMS microfrontend platform |
-| [DeenTime](https://github.com/Aaqibhafeezkhan/DeenTime) | Local-first Islamic PWA |
-| [DeHTML](https://github.com/Aaqibhafeezkhan/DeHTML) | HTML and web-code developer toolkit |
-| [IndianParliamentInfographic](https://github.com/Aaqibhafeezkhan/IndianParliamentInfographic) | Parliamentary civic-data explorer |
-| [Anti-Doomscroll-SDK](https://github.com/Aaqibhafeezkhan/Anti-Doomscroll-SDK) | React Native digital-wellbeing journal |
+The index below links every project represented in this catalogue. The six flagship projects retain their detailed architecture and engineering notes above; the additional entries are grouped by their primary purpose.
+
+| Project | Category | Source |
+|---|---|---|
+| Books API | Backend service | [Books-API](https://github.com/Aaqibhafeezkhan/Books-API) |
+| CMS Microfrontend Platform | Frontend architecture | [CMS-Microfrontend](https://github.com/Aaqibhafeezkhan/CMS-Microfrontend) |
+| DeenTime | Progressive Web App | [DeenTime](https://github.com/Aaqibhafeezkhan/DeenTime) |
+| DeHTML Studio | Developer tooling | [DeHTML](https://github.com/Aaqibhafeezkhan/DeHTML) |
+| Indian Parliament Explorer | Civic data | [IndianParliamentInfographic](https://github.com/Aaqibhafeezkhan/IndianParliamentInfographic) |
+| Anti-Doomscroll Journal | Mobile application | [Anti-Doomscroll-SDK](https://github.com/Aaqibhafeezkhan/Anti-Doomscroll-SDK) |
+| AI Benchmark | AI evaluation | [AI-Benchmark](https://github.com/Aaqibhafeezkhan/AI-Benchmark) |
+| OpenNewsGrid | News aggregation | [OpenNewsGrid](https://github.com/Aaqibhafeezkhan/OpenNewsGrid) |
+| India Civic Pulse | Civic information | [India-Civic-Pulse](https://github.com/Aaqibhafeezkhan/India-Civic-Pulse) |
+| Pollinations AI Chat Platform | AI application | [Streamlit-Pollination-Chatbot](https://github.com/Aaqibhafeezkhan/Streamlit-Pollination-Chatbot) |
+| IMDb Stats | Data tooling | [imdb-stats](https://github.com/Aaqibhafeezkhan/imdb-stats) |
+| i18n Missing Translations Detector | Developer tooling | [i18n-Translations-missing-script](https://github.com/Aaqibhafeezkhan/i18n-Translations-missing-script) |
+| NoCodeComments | Developer tooling | [NoCodeComments](https://github.com/Aaqibhafeezkhan/NoCodeComments) |
+| Evergreen Countdown | Developer utility | [Evergreen-Countdown](https://github.com/Aaqibhafeezkhan/Evergreen-Countdown) |
+| Polyglot Utilities Toolkit | Utility library | [polyglot-utilities-toolkit](https://github.com/Aaqibhafeezkhan/polyglot-utilities-toolkit) |
+| Form Components Builder | Developer tooling | [Form-Components-Builder](https://github.com/Aaqibhafeezkhan/Form-Components-Builder) |
+| Clipper | Image utility | [Clipper](https://github.com/Aaqibhafeezkhan/Clipper) |
+| Image Picker | Android library | [Image-picker](https://github.com/Aaqibhafeezkhan/Image-picker) |
+| Privacy Permitter | Browser security utility | [Privacy-Permitter](https://github.com/Aaqibhafeezkhan/Privacy-Permitter) |
+| Script Scheduler | Automation tool | [Script-Scheduler](https://github.com/Aaqibhafeezkhan/Script-Scheduler) |
+| GameVault | Browser games | [GameVault](https://github.com/Aaqibhafeezkhan/GameVault) |
+| Tactical XI - World Cup | Sports application | [Tactical-XI-World-Cup](https://github.com/Aaqibhafeezkhan/Tactical-XI-World-Cup) |
+| CSS Animation Studio | Creative developer tool | [CSS-Animation-Studio](https://github.com/Aaqibhafeezkhan/CSS-Animation-Studio) |
+| MicrobloggingApp | Full-stack application | [MicrobloggingApp](https://github.com/Aaqibhafeezkhan/MicrobloggingApp) |
+| CoreQA | Community application | [CoreQA](https://github.com/Aaqibhafeezkhan/CoreQA) |
+| SecureAuth | Android security application | [SecureAuth](https://github.com/Aaqibhafeezkhan/SecureAuth) |
+| Invisibility Cloak | Computer vision demo | [invisibility-cloak](https://github.com/Aaqibhafeezkhan/invisibility-cloak) |
+| MyTechAccounts | Personal developer hub | [MyTechAccounts](https://github.com/Aaqibhafeezkhan/MyTechAccounts) |
+| Simple Resume Builder | Productivity application | [SimpleResumeBuilder](https://github.com/Aaqibhafeezkhan/SimpleResumeBuilder) |
+| Curriculum Vitae Forge | Productivity application | [Curriculum-Vitae-Forge](https://github.com/Aaqibhafeezkhan/Curriculum-Vitae-Forge) |
+| Pokémon Literal Doodle | Creative web project | [Pokemon-literal-doodle](https://github.com/Aaqibhafeezkhan/Pokemon-literal-doodle) |
+| FreeCodeCamp Projects | Learning collection | [FreeCodeCampProjects](https://github.com/Aaqibhafeezkhan/FreeCodeCampProjects) |
+| Bunch of Clones | Learning collection | [Bunch-of-clones](https://github.com/Aaqibhafeezkhan/Bunch-of-clones) |
+| React Redux Starter | Starter template | [react-redux-starter](https://github.com/Aaqibhafeezkhan/react-redux-starter) |
+| React.js Interview Epic | Technical reference | [ReactJs-Interview-Epic](https://github.com/Aaqibhafeezkhan/ReactJs-Interview-Epic) |
+| Spring Boot Interview Epic | Technical reference | [Spring-Boot-Interview-Epic](https://github.com/Aaqibhafeezkhan/Spring-Boot-Interview-Epic) |
+| Beneficiary Update | Enterprise workflow prototype | [NewPegaRepositories/Beneficiary-Update](https://github.com/Aaqibhafeezkhan/NewPegaRepositories/tree/main/Beneficiary-Update) |
+| PLMA | Legacy desktop artifact | [PLMA](https://github.com/Aaqibhafeezkhan/PLMA) |
+
+## Inventory scope
+
+This catalogue covers the original, non-fork project work found in the personal GitHub account, including standalone applications, developer tools, libraries, learning collections, technical references and documented legacy artifacts. Forks and upstream mirrors, third-party project collections, empty repositories, profile/portfolio shells, team workspace indexes and clearly employer-specific work repositories are not presented as personal projects. Where a project is a learning collection, a prototype, an environment-dependent integration or a legacy binary-only artifact, that status is stated rather than implying production readiness.
+
 
 ## Related work
 
